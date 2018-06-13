@@ -109,7 +109,7 @@ sudo /opt/splunkforwarder/bin/splunk start
 
  ```
 $ sudo yum -y install git git-core zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
-$ sudo rpm -ivh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-6.noarch.rpm
+$ sudo rpm -ivh http://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
 $ sudo yum -y install nodejs
 $ sudo yum -y install mariadb mariadb-server mariadb-devel
 $ sudo systemctl start mariadb.service
